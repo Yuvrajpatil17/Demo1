@@ -1,0 +1,2 @@
+init number=10;
+Ssytem.debug('Welcome+number);
