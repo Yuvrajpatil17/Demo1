@@ -1,0 +1,8 @@
+<apex:page controller="MyClass">
+    <apex:form >
+    
+    Welcome in the custom visual force development:{!$User.FirstName}<br></br>
+    <apex:inputText value="{!MyClass.name}"/>
+    <apex:commandButton value="Do Save"  action="{!doSave}"/>
+    </apex:form> 
+</apex:page>

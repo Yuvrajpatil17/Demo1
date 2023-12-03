@@ -1,0 +1,18 @@
+<apex:page standardController="Merchadise__c" >
+    <apex:form >
+        <apex:pageBlock title="Edit Merchadise__c">
+        <apex:image url="{!$Resource.myResource}"/>
+        <apex:pageBlockSection columns="3" title="Merchadise__c Information">
+        <apex:inputField value="{!Merchadise__c.name}"/>
+        <apex:inputField value="{!Merchadise__c.Merchadise_Stock__c}"/>
+        <apex:inputField value="{!Merchadise__c.Merchandise_Desc__c}"/>
+        <apex:inputField value="{!Merchadise__c.Merchandise_Price__c}"/>
+      </apex:pageBlockSection>
+      <apex:pageblockButtons > 
+          <apex:commandButton value="{!$Label.Save}" action="{!Save}"/>
+          <apex:commandButton value="Cancel" action="{!Cancel}"/>
+      </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+  
+</apex:page>

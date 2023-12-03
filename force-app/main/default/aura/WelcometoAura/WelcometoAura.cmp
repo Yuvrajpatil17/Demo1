@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<div>
+        <p>
+           Welcome in the world of aura components in depth with legent amit 
+        </p>
+    
+    </div>
+</aura:component>

@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<div>
+        <p>
+            This is Last lightning component
+            merchandise = {!v.recordId}
+        
+        </p>
+    
+    </div>
+</aura:component>

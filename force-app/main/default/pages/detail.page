@@ -1,0 +1,17 @@
+<apex:page >
+<apex:form >
+
+  <apex:pageblock >
+
+
+     <apex:detail relatedList="false"/>
+
+  </apex:pageblock>
+
+
+
+
+
+</apex:form>
+  
+</apex:page>

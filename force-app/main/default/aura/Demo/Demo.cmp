@@ -1,0 +1,15 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <img src="{!$Resource.myResource}"/>
+    <aura:attribute type="String" name="myText" default="Amit"/>
+    
+    <div>
+        <p>
+            
+			{!v.myText}            
+        
+        </p>
+        
+    
+    </div>
+    <lightning:input type="text" label="Eneter Name" Value="{!v.myText}"/>
+</aura:component>

@@ -1,0 +1,56 @@
+<template>
+    <div>
+        <lightning-input
+            type="text"
+            label="Account Name"
+            value={accountName}
+            onchange={handleOnChangeAccountName}
+
+            ></lightning-input>
+            <lightning-input
+            type="text"
+            label="Account Phone"
+            value={accountPhoe}
+            onchange={handleOnChangeAccountPhone}
+
+            ></lightning-input>
+            <lightning-input
+            type="text"
+            label="Billing Street"
+            value={billingStreet}
+            onchange={handleOnChangeAccountBillingStreet}
+
+            ></lightning-input>
+            <lightning-input
+            type="text"
+            label="Billing City"
+            value={billingCity}
+            onchange={handleOnChangeAccountBillingCity}
+
+            ></lightning-input>
+            <lightning-input
+            type="text"
+            label="Billing State"
+            value={billingState}
+            onchange={handleOnChangeAccountBillingState}
+
+            ></lightning-input>
+            <lightning-input
+            type="text"
+            label="Billing ZipCode"
+            value={billingZipCde}
+            onchange={handleOnChangeAccountBillingZipCode}
+
+            ></lightning-input>
+            <lightning-button
+                variant = "brand"
+                label="search account"
+                title="Click here to initiate the search"
+                onclick={initiateSearch}
+
+
+            ></lightning-button>
+
+    </div>
+    
+</template>
